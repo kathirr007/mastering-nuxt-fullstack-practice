@@ -7,4 +7,10 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxt/ui', '@nuxt/eslint'],
   css: ['~/assets/css/main.css'],
+  ui: {
+    fonts: false
+  },
+  devServer: {
+    port: 3010
+  }
 })
